@@ -26,9 +26,13 @@ mongoose
 app.use("/api/auth", userRoutes);
 app.use("/api/message", messageRoutes);
 
-const server = app.listen(process.env.PORT, () =>
+app.listen(process.env.PORT, () =>
   console.log(`Server started on ${process.env.PORT}`)
 );
+
+// const server = app.listen(process.env.PORT, () =>
+//   console.log(`Server started on ${process.env.PORT}`)
+// );
 // const io = socket(server, {
 //   cors: {
 //     origin: "http://localhost:3000",
