@@ -10,9 +10,6 @@
     "server"
   ],
   "author": "davidjohnrobles",
-  "engines": {
-    "node": "16.15.1"
-  },
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -23,5 +20,8 @@
     "mongoose": "^6.8.4",
     "nodemon": "^2.0.20",
     "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.8.15"
   }
 }
